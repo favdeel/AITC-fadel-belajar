@@ -1,27 +1,55 @@
+@font-face {
+    font-family: nosa;
+    src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: like;
+    src: url(fonts/PORKH___.TTF);
+}
+
+
 body {
     background-color: #247291;
 }
 .hithere {
+    -webkit-text-stroke: white;
+    -webkit-text-stroke-width: 2px;
     background-color: #f8da5b;
     color: #247291;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-family: like;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    border-width: 100px;
+    
 
 }
 
 .img1 { 
+border: 2px solid #f8da5b;
+border-radius: 20px;
 float: left;
 width: 200px;
 height: 300px;
+position: relative;
+bottom: 50px;
 
 }
 
+.img2and4 {
+    position: relative;
+}
+
 .img2 { 
+    border-radius: 20px;
     display: block;
-    float: left;
-    width: 200px;
+    float: right;
+    position:relative;
+    right: 30px;
+    width: 300px;
     height: 300px;
-    
+    bottom: 50px;
 }
 
 .annyeong {
@@ -29,6 +57,186 @@ height: 300px;
     text-align: left;
     color: beige;
     font-family: fantasy;
+    font-style: italic;
     position: relative;
     left: 39px;
+    bottom: 50px;
+}
+
+.img4 {
+    float: right;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    right: 30px;
+    bottom: 50px;
+}
+.biodata {
+    float: left;
+    border: 2px solid #f8da5b;
+    border-radius: 8px;
+    width: 450px;
+    padding: 5px;
+    line-height: 49px;
+    font-family: nosa;
+    font-style: italic;
+    font-size: 20px;
+    text-align:left;
+    position: relative;
+    left: 40px;
+    bottom: 100px;
+    color: beige;
+}
+
+.garis {
+    height: 5px;
+    background: #f8da5b; 
+    size: 20px;
+    position: relative;
+}
+
+.garis2 {
+    height: 10px;
+    background: #f8da5b; 
+    size: 20px;
+    position: relative;
+    top:10px;
+}
+
+.mygallery {
+    -webkit-text-stroke: #f8da5b;
+    -webkit-text-stroke-width: 2px;
+    border: 1px solid #f8da5b;
+    color: #247291;
+    font-family: like;
+    font-size: 40px;
+    text-align:center; 
+    position: relative;
+    border-width: 2px;
+    bottom: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#mygallery {
+    background-color: #f8da5b;
+text-align: center;
+font-family: like;
+}
+
+.catscen1 {
+    position: relative;
+}
+.scen1{
+    border: 2px solid #f8da5b;
+    float: left;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 70px
+}
+
+.adem {
+    font-family: fantasy;
+    float: left;
+    position: relative;
+    right: 220px;
+    top: 10px;
+    font-size: 30px;
+    color: beige;
+}
+
+.captadem {
+    float: left;
+    color: beige;
+    font-family: nosa;
+    font-size: 10px;
+    font-style: italic;
+    position: relative;
+    font-weight: 250;
+    top: 40px;
+    right: 350px;
+}
+
+.catscen2 {
+    position: relative;
+}
+
+.scen2 {
+    object-position: center;
+    border: 2px solid #f8da5b;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 256px;
+}
+
+.wek {
+    font-family: fantasy;
+    position: relative;
+   text-align: center;
+   bottom: 285px;
+   right: 10px;
+    font-size: 30px;
+    color: beige;
+}
+
+.captwek {
+    text-align: center;
+    color: beige;
+    font-family: nosa;
+    font-size: 10px;
+    font-style: italic;
+    position: relative;
+    bottom: 364px;
+    right: 10px;
+    font-weight: 250;
+}
+
+.catscen3 {
+    position: relative;
+}
+
+.scen3 {
+    float:right;
+    border: 2px solid #f8da5b;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    bottom: 692px;
+}
+
+.chill {
+    font-family: fantasy;
+    position: relative;
+   text-align: right;
+   bottom: 285px;
+   left: 185px;
+   bottom: 495px;
+    font-size: 30px;
+    color: beige;
+}
+
+.captchill {
+    text-align: right;
+    color: beige;
+    font-family: nosa;
+    font-size: 10px;
+    font-style: italic;
+    position: relative;
+    bottom: 364px;
+    left: 160px;
+    bottom: 575px;
+    font-weight: 250;
+}
+
+.end {
+    text-align: center;
+    color: beige;
+    font-family: nosa;
+    font-size: 10px;
+    font-style: italic;
+    position: relative;
+    bottom: 600px;
+    font-weight: 250;
 }
